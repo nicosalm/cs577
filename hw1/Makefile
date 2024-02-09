@@ -1,5 +1,5 @@
 build:
-	rustc file.rs
+	rustc -C opt-level=2 file.rs
 
 run: build
 	./file
