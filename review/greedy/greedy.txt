@@ -1,0 +1,9 @@
+
+Greedy properties
+
+(1) Optimal substructure
+    - optimal solution to problem incorporates optimal
+      solutions to subproblem(s)
+
+(2) Greedy choice property
+    - make the locally optimal choice -> globally optimal solution

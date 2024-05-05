@@ -1,0 +1,12 @@
+Topics:
+* Greedy
+* Divide & Conquer
+    m = l + (r - l) / 2;
+* Dynamic Programming
+* Network Flow
+* Intractability
+
+Other:
+* Randomization
+* Kmeans
+* Clique

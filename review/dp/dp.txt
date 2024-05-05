@@ -1,0 +1,19 @@
+1. define subproblems -> # of subproblems
+2. guess (part of solution) -> # choice for guess
+3. relate subproblem solutions to a recurrence -> time / subproblem (similar to 2)
+4. recurse & memoize | build dp table bottom-up -> check subproblem recurrence is acyclic 
+                                                        i.e. has a topological ordering 
+                                                        (in general, need a DAG);
+                                                        total time: time of (1) * (3)
+5. solve original problem -> extra time
+
+
+Tips for (1) - Finding subproblems
+    Strings:
+        - suffixes x[i:] for all i -> θ(n) 
+        - prefixes x[:i] for all i -> θ(n)
+        - substrings x[i:j] for all i ≤ j
+    String topological ordering: 
+        - Increasing substring size
+        
+
