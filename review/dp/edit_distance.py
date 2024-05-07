@@ -1,6 +1,3 @@
-
-# edit distance
-
 '''
 Edit distance:
 

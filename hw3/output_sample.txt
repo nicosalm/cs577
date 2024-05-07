@@ -1,4 +1,0 @@
-./intervals
-./intervals
-1
-2
